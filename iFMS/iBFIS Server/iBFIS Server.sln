@@ -1,0 +1,214 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iFVR Server", "iBFIS Server\iBFIS Server.vcxproj", "{515D558E-B6B7-42AB-90D0-69C56858553B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.DBOperatorStation", "iBFIS.Server.DBOperatorStation\iBFIS.Server.DBOperatorStation.vcxproj", "{434F3A1F-BC37-4374-90FF-3F12978CF5CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.DisplayLogStation", "iBFIS.Server.DisplayLogStation\iBFIS.Server.DisplayLogStation.vcxproj", "{95B4B5BF-A22A-46E8-86D4-02D687C2890E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.ClientDataTrafficStation", "iBFIS.Server.ClientSourceStation\iBFIS.Server.ClientSourceStation.vcxproj", "{C6A4042F-8149-48AD-B764-07252585C2D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.DataProviderStation", "iBFIS.Server.CacheStation\iBFIS.Server.CacheStation.vcxproj", "{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.SyncStation", "iBFIS.Server.SyncStation\iBFIS.Server.SyncStation.vcxproj", "{8A0EBF5A-F791-457E-890C-CD73D0CB124E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.CommunicateStation", "iBFIS.Server.CommunicateStation\iBFIS.Server.CommunicateStation.vcxproj", "{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.MigrateTaskStation", "iBFIS.Server.MigrateTaskStation\iBFIS.Server.MigrateTaskStation.vcxproj", "{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iFVRUtility", "iFVRUtility\iFVRUtility.vcxproj", "{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iFVR.Server.NotifyStation", "iFVR.Server.NotifyStation\iFVR.Server.NotifyStation.vcxproj", "{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.MCOperateStatiom", "iBFIS.Server.MCOperateStatiom\iBFIS.Server.MCOperateStatiom.vcxproj", "{1FB41767-D54A-4E8D-A12A-66DBC71C9093}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.JZPluginStation", "iBFIS.Server.JZPluginStation\iBFIS.Server.JZPluginStation.vcxproj", "{95AEEC29-B736-4CEE-888C-C3E77212D3C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.PZHPluginStation", "iBFIS.Server.PZHPluginStation\iBFIS.Server.PZHPluginStation.vcxproj", "{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank.Docking.Plugin", "Bank.Docking.Plugin", "{CB40754C-5457-45A9-B5FB-224D6BE14459}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.NCPluginStation", "iBFIS.Server.NCPluginStation\iBFIS.Server.NCPluginStation.vcxproj", "{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iBFIS.Server.MemoryWaySerializeDataStation", "iBFIS.Server.MemoryWaySerializeDataStation\iBFIS.Server.MemoryWaySerializeDataStation.vcxproj", "{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iFVR_ServerMonitoring", "iFVR_ServerMonitoring\iFVR_ServerMonitoring.vcxproj", "{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{515D558E-B6B7-42AB-90D0-69C56858553B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{515D558E-B6B7-42AB-90D0-69C56858553B}.Debug|Win32.Build.0 = Debug|Win32
+		{515D558E-B6B7-42AB-90D0-69C56858553B}.Debug|x64.ActiveCfg = Debug|Win32
+		{515D558E-B6B7-42AB-90D0-69C56858553B}.Release|Win32.ActiveCfg = Release|Win32
+		{515D558E-B6B7-42AB-90D0-69C56858553B}.Release|Win32.Build.0 = Release|Win32
+		{515D558E-B6B7-42AB-90D0-69C56858553B}.Release|x64.ActiveCfg = Release|Win32
+		{434F3A1F-BC37-4374-90FF-3F12978CF5CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{434F3A1F-BC37-4374-90FF-3F12978CF5CE}.Debug|Win32.Build.0 = Debug|Win32
+		{434F3A1F-BC37-4374-90FF-3F12978CF5CE}.Debug|x64.ActiveCfg = Debug|Win32
+		{434F3A1F-BC37-4374-90FF-3F12978CF5CE}.Release|Win32.ActiveCfg = Release|Win32
+		{434F3A1F-BC37-4374-90FF-3F12978CF5CE}.Release|Win32.Build.0 = Release|Win32
+		{434F3A1F-BC37-4374-90FF-3F12978CF5CE}.Release|x64.ActiveCfg = Release|Win32
+		{95B4B5BF-A22A-46E8-86D4-02D687C2890E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95B4B5BF-A22A-46E8-86D4-02D687C2890E}.Debug|Win32.Build.0 = Debug|Win32
+		{95B4B5BF-A22A-46E8-86D4-02D687C2890E}.Debug|x64.ActiveCfg = Debug|Win32
+		{95B4B5BF-A22A-46E8-86D4-02D687C2890E}.Release|Win32.ActiveCfg = Release|Win32
+		{95B4B5BF-A22A-46E8-86D4-02D687C2890E}.Release|Win32.Build.0 = Release|Win32
+		{95B4B5BF-A22A-46E8-86D4-02D687C2890E}.Release|x64.ActiveCfg = Release|Win32
+		{C6A4042F-8149-48AD-B764-07252585C2D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6A4042F-8149-48AD-B764-07252585C2D0}.Debug|Win32.Build.0 = Debug|Win32
+		{C6A4042F-8149-48AD-B764-07252585C2D0}.Debug|x64.ActiveCfg = Debug|Win32
+		{C6A4042F-8149-48AD-B764-07252585C2D0}.Release|Win32.ActiveCfg = Release|Win32
+		{C6A4042F-8149-48AD-B764-07252585C2D0}.Release|Win32.Build.0 = Release|Win32
+		{C6A4042F-8149-48AD-B764-07252585C2D0}.Release|x64.ActiveCfg = Release|Win32
+		{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}.Debug|Win32.Build.0 = Debug|Win32
+		{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}.Debug|x64.ActiveCfg = Debug|Win32
+		{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}.Release|Win32.ActiveCfg = Release|Win32
+		{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}.Release|Win32.Build.0 = Release|Win32
+		{A3B7792C-972A-4EAD-BC3D-6E2730E19EDC}.Release|x64.ActiveCfg = Release|Win32
+		{8A0EBF5A-F791-457E-890C-CD73D0CB124E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A0EBF5A-F791-457E-890C-CD73D0CB124E}.Debug|Win32.Build.0 = Debug|Win32
+		{8A0EBF5A-F791-457E-890C-CD73D0CB124E}.Debug|x64.ActiveCfg = Debug|Win32
+		{8A0EBF5A-F791-457E-890C-CD73D0CB124E}.Release|Win32.ActiveCfg = Release|Win32
+		{8A0EBF5A-F791-457E-890C-CD73D0CB124E}.Release|Win32.Build.0 = Release|Win32
+		{8A0EBF5A-F791-457E-890C-CD73D0CB124E}.Release|x64.ActiveCfg = Release|Win32
+		{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}.Debug|Win32.Build.0 = Debug|Win32
+		{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}.Debug|x64.ActiveCfg = Debug|Win32
+		{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}.Release|Win32.ActiveCfg = Release|Win32
+		{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}.Release|Win32.Build.0 = Release|Win32
+		{4DBFF92F-08B2-4B84-922F-A5F8F08E744E}.Release|x64.ActiveCfg = Release|Win32
+		{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}.Debug|Win32.Build.0 = Debug|Win32
+		{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}.Debug|x64.ActiveCfg = Debug|Win32
+		{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}.Release|Win32.ActiveCfg = Release|Win32
+		{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}.Release|Win32.Build.0 = Release|Win32
+		{9E293FBC-EC8F-4C06-B159-BC3D2E648FFC}.Release|x64.ActiveCfg = Release|Win32
+		{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}.Debug|Win32.Build.0 = Debug|Win32
+		{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}.Debug|x64.ActiveCfg = Debug|Win32
+		{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}.Release|Win32.ActiveCfg = Release|Win32
+		{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}.Release|Win32.Build.0 = Release|Win32
+		{4F1FC6FE-4E3A-4E6E-9E58-C63C6E197D59}.Release|x64.ActiveCfg = Release|Win32
+		{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}.Debug|Win32.Build.0 = Debug|Win32
+		{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}.Debug|x64.ActiveCfg = Debug|Win32
+		{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}.Release|Win32.ActiveCfg = Release|Win32
+		{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}.Release|Win32.Build.0 = Release|Win32
+		{0BF50C11-1F1E-4F51-BD12-B282E0D194AF}.Release|x64.ActiveCfg = Release|Win32
+		{1FB41767-D54A-4E8D-A12A-66DBC71C9093}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FB41767-D54A-4E8D-A12A-66DBC71C9093}.Debug|Win32.Build.0 = Debug|Win32
+		{1FB41767-D54A-4E8D-A12A-66DBC71C9093}.Debug|x64.ActiveCfg = Debug|Win32
+		{1FB41767-D54A-4E8D-A12A-66DBC71C9093}.Release|Win32.ActiveCfg = Release|Win32
+		{1FB41767-D54A-4E8D-A12A-66DBC71C9093}.Release|Win32.Build.0 = Release|Win32
+		{1FB41767-D54A-4E8D-A12A-66DBC71C9093}.Release|x64.ActiveCfg = Release|Win32
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0}.Debug|Win32.Build.0 = Debug|Win32
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0}.Debug|x64.ActiveCfg = Debug|Win32
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0}.Release|Win32.ActiveCfg = Release|Win32
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0}.Release|Win32.Build.0 = Release|Win32
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0}.Release|x64.ActiveCfg = Release|Win32
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}.Debug|Win32.Build.0 = Debug|Win32
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}.Debug|x64.ActiveCfg = Debug|Win32
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}.Release|Win32.ActiveCfg = Release|Win32
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}.Release|Win32.Build.0 = Release|Win32
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F}.Release|x64.ActiveCfg = Release|Win32
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}.Debug|Win32.Build.0 = Debug|Win32
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}.Debug|x64.ActiveCfg = Debug|Win32
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}.Release|Win32.ActiveCfg = Release|Win32
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}.Release|Win32.Build.0 = Release|Win32
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723}.Release|x64.ActiveCfg = Release|Win32
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Debug|Win32.Build.0 = Debug|Win32
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Debug|x64.ActiveCfg = Debug|x64
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Debug|x64.Build.0 = Debug|x64
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Release|Win32.ActiveCfg = Release|Win32
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Release|Win32.Build.0 = Release|Win32
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Release|x64.ActiveCfg = Release|x64
+		{A2C0890B-5F3B-4FAF-95BA-3869B0981B16}.Release|x64.Build.0 = Release|x64
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Debug|Win32.Build.0 = Debug|Win32
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Debug|x64.ActiveCfg = Debug|x64
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Debug|x64.Build.0 = Debug|x64
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Release|Win32.ActiveCfg = Release|Win32
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Release|Win32.Build.0 = Release|Win32
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Release|x64.ActiveCfg = Release|x64
+		{6A7DBFFF-E7BF-472A-A04B-C1641D37D264}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95AEEC29-B736-4CEE-888C-C3E77212D3C0} = {CB40754C-5457-45A9-B5FB-224D6BE14459}
+		{85DF85A6-E5B8-4C07-97BF-B47CD41FB05F} = {CB40754C-5457-45A9-B5FB-224D6BE14459}
+		{BF1169AD-0129-4BE7-ADBA-4D5867EC7723} = {CB40754C-5457-45A9-B5FB-224D6BE14459}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.6.30.242:8080/tfs/%E9%87%91%E8%9E%8D%E4%BA%A7%E5%93%81%E7%BA%BF
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = iBFIS\u0020Server\\iBFIS\u0020Server.vcxproj
+		SccProjectName1 = iBFIS\u0020Server
+		SccLocalPath1 = iBFIS\u0020Server
+		SccProjectUniqueName2 = iBFIS.Server.DBOperatorStation\\iBFIS.Server.DBOperatorStation.vcxproj
+		SccProjectName2 = iBFIS.Server.DBOperatorStation
+		SccLocalPath2 = iBFIS.Server.DBOperatorStation
+		SccProjectUniqueName3 = iBFIS.Server.DisplayLogStation\\iBFIS.Server.DisplayLogStation.vcxproj
+		SccProjectName3 = iBFIS.Server.DisplayLogStation
+		SccLocalPath3 = iBFIS.Server.DisplayLogStation
+		SccProjectUniqueName4 = iBFIS.Server.ClientSourceStation\\iBFIS.Server.ClientSourceStation.vcxproj
+		SccProjectName4 = iBFIS.Server.ClientSourceStation
+		SccLocalPath4 = iBFIS.Server.ClientSourceStation
+		SccProjectUniqueName5 = iBFIS.Server.CacheStation\\iBFIS.Server.CacheStation.vcxproj
+		SccProjectName5 = iBFIS.Server.CacheStation
+		SccLocalPath5 = iBFIS.Server.CacheStation
+		SccProjectUniqueName6 = iBFIS.Server.SyncStation\\iBFIS.Server.SyncStation.vcxproj
+		SccProjectName6 = iBFIS.Server.SyncStation
+		SccLocalPath6 = iBFIS.Server.SyncStation
+		SccProjectUniqueName7 = iBFIS.Server.CommunicateStation\\iBFIS.Server.CommunicateStation.vcxproj
+		SccProjectName7 = iBFIS.Server.CommunicateStation
+		SccLocalPath7 = iBFIS.Server.CommunicateStation
+		SccProjectUniqueName8 = iBFIS.Server.MigrateTaskStation\\iBFIS.Server.MigrateTaskStation.vcxproj
+		SccProjectName8 = iBFIS.Server.MigrateTaskStation
+		SccLocalPath8 = iBFIS.Server.MigrateTaskStation
+		SccProjectUniqueName9 = iFVRUtility\\iFVRUtility.vcxproj
+		SccProjectName9 = iFVRUtility
+		SccLocalPath9 = iFVRUtility
+		SccProjectUniqueName10 = iFVR.Server.NotifyStation\\iFVR.Server.NotifyStation.vcxproj
+		SccProjectName10 = iFVR.Server.NotifyStation
+		SccLocalPath10 = iFVR.Server.NotifyStation
+		SccProjectUniqueName11 = iBFIS.Server.MCOperateStatiom\\iBFIS.Server.MCOperateStatiom.vcxproj
+		SccProjectName11 = iBFIS.Server.MCOperateStatiom
+		SccLocalPath11 = iBFIS.Server.MCOperateStatiom
+		SccProjectUniqueName12 = iBFIS.Server.JZPluginStation\\iBFIS.Server.JZPluginStation.vcxproj
+		SccProjectTopLevelParentUniqueName12 = iBFIS\u0020Server.sln
+		SccProjectName12 = iBFIS.Server.JZPluginStation
+		SccLocalPath12 = iBFIS.Server.JZPluginStation
+		SccProjectUniqueName13 = iBFIS.Server.PZHPluginStation\\iBFIS.Server.PZHPluginStation.vcxproj
+		SccProjectTopLevelParentUniqueName13 = iBFIS\u0020Server.sln
+		SccProjectName13 = iBFIS.Server.PZHPluginStation
+		SccLocalPath13 = iBFIS.Server.PZHPluginStation
+		SccProjectUniqueName14 = iBFIS.Server.NCPluginStation\\iBFIS.Server.NCPluginStation.vcxproj
+		SccProjectTopLevelParentUniqueName14 = iBFIS\u0020Server.sln
+		SccProjectName14 = iBFIS.Server.NCPluginStation
+		SccLocalPath14 = iBFIS.Server.NCPluginStation
+		SccProjectUniqueName15 = iBFIS.Server.MemoryWaySerializeDataStation\\iBFIS.Server.MemoryWaySerializeDataStation.vcxproj
+		SccProjectName15 = iBFIS.Server.MemoryWaySerializeDataStation
+		SccLocalPath15 = iBFIS.Server.MemoryWaySerializeDataStation
+		SccProjectUniqueName16 = iFVR_ServerMonitoring\\iFVR_ServerMonitoring.vcxproj
+		SccProjectName16 = iFVR_ServerMonitoring
+		SccLocalPath16 = iFVR_ServerMonitoring
+	EndGlobalSection
+EndGlobal

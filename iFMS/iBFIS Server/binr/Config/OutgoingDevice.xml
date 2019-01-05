@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FMS>
+<OutgoingDevice enable=1 ip="192.168.2.215" port=9989 timeInterval=10 syncFrequency=0 lastSyncTime="20180802" waitFinishTime=180 ></OutgoingDevice>
+</FMS>

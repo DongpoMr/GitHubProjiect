@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- pluginName JZ(锦州) NC(南充) PZH(攀枝花) MigrateCount(并发迁移数量) MigrateOutTime(迁移超时时间秒)-->
+<bankplugin pluginName="JZ" MigrateCount=3 MigrateOutTime=180/>

@@ -1,0 +1,1 @@
+<StoreSet><!--录像存储时间--><!--有固定期限的录像存储时间--><FixedTermSaveTime>2</FixedTermSaveTime><!--无固定期限录像存储时间--><UnFixedTermSaveTime>5</UnFixedTermSaveTime><!--需要补录信息的录像保存时长--><NeedAddInforSaveTime>3</NeedAddInforSaveTime><!--标记已经被取消的保存时长--><MarkCanceledSaveTime>2</MarkCanceledSaveTime></StoreSet>

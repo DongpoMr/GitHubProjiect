@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ServerMonitoring reboot_wait_time 等待FMS重启时间，单位秒  enable 是否启动监测进程 1启动 0不启动 max_reconnect 重试几次失败后，重启FMS服务器-->
+<!-- DiskSpace timeInterval 120分钟检测一次磁盘状态，并通知给客户端-->
+<FMS>
+<ServerMonitoring reboot_wait_time=1200 enable=0 max_reconnect=3 ></ServerMonitoring>
+<DiskSpace timeInterval=120 ></DiskSpace>
+</FMS>
